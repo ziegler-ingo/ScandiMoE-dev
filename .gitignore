@@ -1,0 +1,19 @@
+__pycache__
+.idea
+.DS_Store
+*.egg-info
+build
+dist
+.venv
+.vscode
+.ipynb_checkpoints
+
+# data
+data
+datasets
+checkpoints
+out
+wandb
+events.out.tfevents*
+
+playground.ipynb
