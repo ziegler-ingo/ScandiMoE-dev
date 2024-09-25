@@ -1,0 +1,23 @@
+{
+    "n_layer": 24,
+    "n_head": 32,
+    "n_embd": 2048,
+    "intermediate_size": 7168,
+    "parallel_residual": false,
+    "n_query_groups": 4,
+    "norm_class_name": "RMSNorm",
+    "norm_eps": 1e-05,
+    "mlp_class_name": "LlamaMoE",
+    "rope_condense_ratio": 1,
+    "rope_base": 1000000,
+    "rotary_percentage": 1.0,
+    "vocab_size": 32000,
+    "padded_vocab_size": 32000,
+    "padding_multiple": 64,
+    "n_expert": 8,
+    "n_expert_per_token": 2,
+    "name": "TinyMixtral-8x1.1B",
+    "bias": false,
+    "lm_head_bias": false,
+    "block_size": 4096
+}
