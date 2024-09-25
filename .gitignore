@@ -16,4 +16,4 @@ out
 wandb
 events.out.tfevents*
 
-playground.ipynb
+playground.*
